@@ -2,6 +2,7 @@ package com.example.recipes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.recipes.Utils.Utils.dataSet
 import com.example.recipes.adapters.DishAdapter
@@ -15,7 +16,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val adapter = DishAdapter(dataSet)
+        val adapter = DishAdapter(dataSet) {
+            Toast.makeText(this, this.getText(it.titleId), Toast.LENGTH_SHORT).show()
+        }
 
         with(binding) {
             mainRecyclerView.layoutManager = LinearLayoutManager(this@MainActivity)

@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Recipes</string>
+    <string name="borscht">Borscht</string>
+    <string name="borscht_about">borscht is a delicious, hearty beet soup popular in Eastern Europe, with origins most commonly traced to Ukraine. The dish typically contains beets and other vegetables cooked in broth and often topped with sour cream, though there are many variations served across the globe.</string>
+    <string name="ceasar">Caesar salad</string>
+    <string name="ceasar_about">a Caesar salad (also spelled Cesar, César and Cesare) is a green salad of romaine lettuce and croutons dressed with lemon juice (or lime juice), olive oil, egg, Worcestershire sauce, anchovies, garlic, Dijon mustard, Parmesan cheese, and black pepper. In its original form, this salad was prepared and served tableside.</string>
+    <string name="hot_dog">Hot dog</string>
+    <string name="hot_dog_about">a hot dog consists of a fried or steamed sausage served in a slot in a partially sliced bun.</string>
+    <string name="cheesecake">Cheesecake</string>
+    <string name="cheesecake_about">a silky-smooth dessert that sits atop a crunchy graham cracker crust and right before serving, you smother it with an elegant blueberry sauce.</string>
+    <string name="ratatouille">Ratatouille</string>
+    <string name="ratatouille_about">ratatouille is an easy French side dish that consists of stewed vegetables: eggplant, zucchini, onions, yellow squash, bell peppers garlic, fresh tomatoes and herbs. It is an absolutely divine addition to any entree and is easy on the wallet and waistline.</string>
+    <string name="khinkali">Khinkali</string>
+    <string name="khinkali_about">a very popular Georgian dumpling made of twisted knobs of dough, stuffed with meat and spices.</string>
+    <string name="steak">Steak</string>
+    <string name="steak_about">tender, juicy, and expertly grilled to perfection. Savor the robust flavors and succulent juices in every bite. Accompanied by delightful chef-crafted sides.</string>
+    <string name="lasagna">Lasagna</string>
+    <string name="lasagna_about">layers of perfectly cooked pasta sheets interlaced with rich, flavorful tomato sauce, creamy ricotta cheese, and a generous blend of savory ground meat. Baked to golden perfection, our classic lasagna is a comforting Italian delight that will satisfy your cravings.</string>
 </resources>
