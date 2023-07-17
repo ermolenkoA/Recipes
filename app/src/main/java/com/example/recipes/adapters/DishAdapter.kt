@@ -22,7 +22,6 @@ class DishAdapter(private val list: List<DishItemModel>,
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DishItemViewHolder {
         val binding = DishListItemBinding
             .inflate(LayoutInflater.from(parent.context), parent, false)
-
         return DishItemViewHolder(binding)
     }
 
